@@ -1,0 +1,479 @@
+*{
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.body{
+   display: flex;
+   flex-flow: column nowrap;
+   text-align: center;      
+}
+
+.header{    
+    display: flex;
+    flex-flow: column;
+    background: rgb(255, 254, 254);    
+    width: 98%; 
+    height: auto;
+    margin-top: -1%;
+    box-shadow: 2px 2px 8px rgb(214, 210, 210);
+    
+    
+}
+.contienenav{        
+    display: flex;
+    justify-content: space-around ;    
+    align-items: left ;
+    width: 100em; 
+    
+}
+.contienenav a{
+    text-decoration: none;
+    display: block;
+    color: rgb(10, 10, 10);    
+}
+.uno{  
+    width: 12%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.dos{    
+    width: 12%;
+    text-align: center;
+    font-size: 1.2em;;  
+}
+.tres{    
+    width: 12%;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-size: 1.2em;
+}
+.cuatro{
+    width: 14%;
+    background: rgb(160, 160, 247);    
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 30px;
+    color: azure;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.contienenav a:hover{
+    color: rgb(15, 99, 194);
+}
+.cuatro:hover{
+        border:solid 1px rgb(224, 249, 229);
+        box-shadow: 2px 5px 8px;
+        color: black;
+    }
+    
+/*FIN HEADER*/
+
+/*Aca empieza Hola Soy con la imagen de la chica */
+.mih1{
+    display: flex;    
+}
+.contieneMi-H1{
+    width: 50%;
+    text-align: center;
+}
+.mih1:hover{
+    border:solid 4px rgb(224, 249, 229);
+    box-shadow: 12px 15px 18px;
+}
+.soy{
+    color: black;
+    font-size: xx-large;    
+}
+.flor{
+    color: rgb(120, 191, 120);
+    font-size: 80px;
+    font-weight: 500;
+}
+.desa{
+    color: black;
+    font-size: xx-large;
+}
+.botonproyecto{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;       
+}
+.botonproyecto a{
+    color: rgb(57, 54, 54);
+    font-size: 1em;
+    text-decoration: none; 
+    position: relative;
+    padding: 10px 20px 10px;
+    text-align: center;    
+}
+.button{
+    background-color: #c0e1c8;
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-weight: 700;    
+    width: 30%;
+}
+
+.chicaimagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}    
+.chicaimagen img{
+    width: 100%;
+}
+
+
+/*Aca empieza el listado html5 css3 blabla*/
+.contieneskills{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 110px  40px 130px;
+    box-shadow: 2px 2px 8px rgb(214, 210, 210);  
+    
+}
+.titleskills{
+    margin:auto;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+}
+.skillslist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.box{
+    width: 25%; 
+    padding: 1%; 
+     }
+.colored{
+    font-size: 5em; 
+}
+.box p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.box:hover{
+    border:solid 4px rgb(224, 249, 229);
+    box-shadow: 2px 5px 8px;
+}
+.fa-comment-quote{
+    font-size: 5em;   
+}
+
+
+.comentario{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 110px  40px 130px;
+    text-align: center;  
+    box-shadow: 2px 2px 8px; 
+}
+.reference h2 {
+    margin-bottom: 2%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+}
+.video_portafolio{
+    width: 80%;
+    height: 80%;
+    margin-top: 3px;   
+}
+
+
+.Experiencia{
+    background:  rgb(246, 243, 243);
+    /*width: 100%;*/  
+    padding: 10px 90px 80px; 
+    box-shadow: 2px 2px 8px;
+}
+.introd-experiencia{
+    margin: 40px;
+}
+.introd-experiencia h3{
+    color: rgb(5, 5, 5);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 3em;   
+}
+.introd-experiencia p{
+    color: rgb(5, 5, 5);
+    font-size: 1em;  
+    margin-top: 5%;
+    margin-bottom: 5%;   
+}
+
+.show{
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    flex-direction: column;      
+    width: 90%;  
+    padding: 3%;
+    margin: 4%;
+     
+}
+
+.process{    
+    color: rgb(6, 6, 6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    display: flex;
+    align-content: flex-start;
+    margin-top: 15px;
+}
+.process img{
+    width: 15%;
+    height: 15%;
+    border-radius: 30px;
+    box-shadow: 10px 20px 10px rgb(199, 199, 199);
+    
+}
+
+.programmer{
+    color: rgb(6, 6, 6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+}
+.programmer img{
+    width: 12%;
+    height: 10%;
+    border-radius: 30px;
+    box-shadow: 10px 20px 10px rgb(199, 199, 199);
+}
+
+.project{
+   
+    color: rgb(6, 6, 6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    display: flex;
+    justify-content: end;    
+}
+.project img{
+    width: 12%;
+    height: 10%;
+    border-radius: 30px;
+    box-shadow: 10px 20px 10px rgb(199, 199, 199);
+}
+
+
+.solution{   
+    color:rgb(6, 6, 6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+.solution img{
+    width: 12%;
+    height: 10%;
+    border-radius: 30px;
+    box-shadow: 10px 20px 10px rgb(199, 199, 199);
+}
+
+.team{
+    color: rgb(6, 6, 6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    display: flex;
+    align-content: flex-start;     
+}
+.team img{
+    width: 14%;
+    height: 10%;
+    border-radius: 30px;
+    box-shadow: 25px 20px 40px rgb(199, 199, 199);
+}
+.spann:hover{ 
+    border: solid 2px rgb(186, 248, 186);
+    width: 20%;
+    height: 20%;          
+}
+
+
+
+
+.cajaform{
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding: 80px 20px 80px; 
+    box-shadow: 2px 2px 8px;
+    border-radius: 5%;
+}
+.cajaform:hover{
+    border:solid 4px rgb(224, 249, 229);
+    box-shadow: 2px 5px 8px;
+}
+.titlewrite{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.infocontactarme{
+    width: 50%;
+}
+
+.licono{
+    display: flex;
+    text-decoration: none;
+    margin-top: 5%;
+    color: rgb(38, 37, 38);
+    width: 80%;
+    padding: 1px 1px 1px;
+    font-size: 1.2rem;    
+    line-height: 2.2rem;
+    border-radius: 50px; 
+}
+.movi{
+    color: #6c63ff;
+    text-decoration: none;
+    width: 15%; 
+}
+
+.movi:hover{
+    background-color: #e1f4e8;
+    height: 40px;
+    width: 40px;
+    border-radius: 55%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+}
+
+/* Aca abajo Empieza el Formulario*/
+
+.ingresardatos{
+    width: 50%;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 700;   
+}
+.titlewrite{
+    margin-bottom: 8%;
+}
+
+.escribinombre{
+    border:solid 1px  #cfc2e1;
+    box-shadow: 2px 5px 8px;
+    border-radius:10px;
+    background-color: #f6f7fb;
+    margin-bottom: 3%;
+}
+.escribiapellido{
+    border:solid 1px  #cfc2e1;
+    box-shadow: 2px 5px 8px;
+    border-radius:10px;
+    background-color: #f6f7fb;
+    margin-bottom: 3%;
+}
+.escribimail{
+    border:solid 1px  #cfc2e1;
+    box-shadow: 2px 5px 8px;
+    border-radius:10px;
+    background-color: #f6f7fb;
+    margin-bottom: 5%;
+}
+.escribimensaje{
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    border: 1px solid  #8338ec;
+    margin: auto;   
+   
+}
+.buttonsend{
+    background-color: #8338ec;
+    border: #8338ec;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-weight: 500;  
+}
+
+.buttonsend:hover{
+        border:solid 1px rgb(252, 252, 252);
+        box-shadow: 2px 2px 8px;
+        color: rgb(223, 255, 236);
+        cursor: pointer;
+    }
+
+
+
+.footer {
+    background-color: #d3ffdd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px 60px;
+    color: rgb(58, 58, 58);
+    font-size: 1.2em;   
+    border:solid 1px rgb(224, 249, 229);
+    box-shadow: 2px 5px 8px;
+  }
+  .footer:hover{
+    border:solid 4px rgb(246, 249, 224);
+    box-shadow: 2px 4px 2px;
+  }
+
+.footer-nav-menu {
+    display: flex;
+    margin: 0;
+    
+} 
+.footer-nav-menu a{
+    text-decoration: none;
+    color: rgb(58, 58, 58); 
+    font-weight: 1em;
+    padding: 12px 10 8px;   
+}
+
+
+.footer-social-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    color: #fdfdfd;
+    padding: 2px 5px 3px;
+    cursor: pointer;
+}
+.social-link i{
+    background-color: #fffdfd;
+    border: #b1b0b3;
+    color: #8338ec;
+    padding: 20px 20px 20px;
+    border-radius: 150px;
+    font-weight: 800;
+    box-shadow: 1px 2px 1px;
+   
+}
+
+
+@media screen and (max-width: 1050px) and (min-width:110px){
+    .header{
+        display: none;
+    }
+    .contienenav{
+        display: none;
+    }
+    .body{
+        background-color: #8338ec;
+    }
+}
